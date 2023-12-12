@@ -9,8 +9,8 @@ export default function Item({url,img,title,overview}: PortfolioData) {
         <Image src={img} width={300} height={100} alt='webimg'/>
       </Link>
       <div className='w-full'>
-        <h3 className='py-2 text-[20px] font-bold'>🌐 {title}</h3>
-        <p className='pl-2 text-[#fddaab]'>{overview}</p>
+        <h3 className='text-[33px] font-bold text-[#e4f2ff]'>🌐 {title}</h3>
+        <p className='pl-2 text-[#fff]'>{overview}</p>
       </div>
     </div>
   )

@@ -2,8 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-*{padding: 0;margin: 0;box-sizing: border-box;}
-
+@font-face {
+  font-family:'CY';
+  src:url('/ChenYuluoyan.ttf') format("TrueType");
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: 
+  border-box;font-family: 'CY', serif;
+}
 ::-webkit-scrollbar{
   background:transparent;
   width:12px;
@@ -14,14 +22,12 @@
   border: 2px solid #000;
 }
 body{
-  user-select: none;
   background-image: url('/images/sky.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-#load{
-  -webkit-text-stroke: 4px #000 ;
+.load{
   animation: load 3s infinite;
 }
 @keyframes load{
@@ -30,9 +36,7 @@ body{
   100%{opacity: 1;}
 }
 .card-shadow{
-  box-shadow: 
-    1px 1px 0 #000,
-    4px 4px 20px 5px #999;
+  box-shadow: 5px 5px 50px 10px #ffebae;
 }
 .aboutMe-shadow{
   box-shadow:
@@ -41,10 +45,10 @@ body{
     4px 4px 10px 5px #6c62f7;
 }
 .aboutMe-shadow2{
-  box-shadow:
-    0px 1px 0 #5249d8,
-    0px 3px 0 #5f56dc,
-    0px 4px 10px 1px #6c62f7;
+  box-shadow: 0 7px 10px 1px #6c62f7;
+}
+.box-shadow{
+  box-shadow: 0 10px 10px #333;
 }
 .hint{
 background:
