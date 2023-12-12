@@ -2,7 +2,7 @@
 import { Application } from '@splinetool/runtime';
 import { useEffect,useRef } from 'react'
 
-export default function notFound() {
+export default function NotFound() {
   const canvas = useRef<HTMLCanvasElement>(null)
 
   useEffect(()=> {
