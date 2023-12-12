@@ -2,6 +2,7 @@
 import { useRef,useEffect } from 'react'
 import { Application } from '@splinetool/runtime'
 import { useSkillToggle,usePortfolioToggle } from '@/store/ToggleStore'
+import AboutMe from '@/components/AboutMe'
 
 export default function Home() {
   const {skill, setSkillToggle} = useSkillToggle()
@@ -25,6 +26,7 @@ export default function Home() {
 
   return (
     <>
+      <AboutMe/>
       <canvas ref={canvas} className='absolute z-0 w-[100vw]'/>
     </>
   )
