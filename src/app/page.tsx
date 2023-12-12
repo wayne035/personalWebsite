@@ -5,6 +5,7 @@ import { useSkillToggle,usePortfolioToggle } from '@/store/ToggleStore'
 import AboutMe from '@/components/AboutMe'
 import Skill from '@/components/Skill'
 import Portfolio from '@/components/Portfolio'
+import Hint from '@/components/Hint'
 
 export default function Home() {
   const {skill, setSkillToggle} = useSkillToggle()
@@ -28,6 +29,7 @@ export default function Home() {
 
   return (
     <>
+      <Hint/>
       <AboutMe/>
       { portfolio && <Portfolio/> }
       { skill && <Skill/> }
