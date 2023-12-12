@@ -31,7 +31,7 @@ export default function Skill() {
                 </h3>
                 {
                   overview.map(overview=> (
-                    <p className='text-[30px]'>
+                    <p key={crypto.randomUUID()} className='text-[30px]'>
                       🔅 {overview}
                     </p>
                   ))
