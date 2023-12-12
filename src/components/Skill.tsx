@@ -23,10 +23,14 @@ export default function Skill() {
           {
             skillData.map(({title, overview})=> (
               <>
-                <h3 className='text-[25px] font-bold pt-[10px]'>{title}</h3>
+                <h3 key={crypto.randomUUID()} className='text-[25px] font-bold pt-[10px]'>
+                  {title}
+                </h3>
                 {
                   overview.map(overview=> (
-                    <p className='my-1'>👍 {overview}</p>
+                    <p key={crypto.randomUUID()} className='my-1'>
+                      👍 {overview}
+                    </p>
                   ))
                 }
               </>

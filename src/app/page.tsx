@@ -4,6 +4,8 @@ import { Application } from '@splinetool/runtime'
 import { useSkillToggle,usePortfolioToggle } from '@/store/ToggleStore'
 import AboutMe from '@/components/AboutMe'
 import Skill from '@/components/Skill'
+import Portfolio from '@/components/Portfolio'
+
 export default function Home() {
   const {skill, setSkillToggle} = useSkillToggle()
   const {portfolio, setPortfolioToggle} = usePortfolioToggle()
@@ -27,6 +29,7 @@ export default function Home() {
   return (
     <>
       <AboutMe/>
+      { portfolio && <Portfolio/> }
       { skill && <Skill/> }
       <canvas ref={canvas} className='absolute z-0 w-[100vw]'/>
     </>
