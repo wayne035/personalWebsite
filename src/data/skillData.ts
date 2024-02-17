@@ -19,7 +19,7 @@ export const skillData: SkillData[] = [
     overview: [
       ' RESTful設計網頁路徑',
       ' MySQL、MongoDB 資料庫建置和資料操作',
-      ' MVC架構開發(Ruby on Rails、Node.js)'
+      ' MVC架構開發(Ruby on Rails、Node.js、Flask)'
     ]
   },
   {
@@ -30,7 +30,7 @@ export const skillData: SkillData[] = [
       ' Git指令操作、使用Git有多人開發經驗',
       ' 使用 VSCode 環境開發',
       ' 使用Photoshop 去背修圖',
-      ' 使用威力導演剪接影片能力'
+      ' 使用威力導演剪接影片'
     ]
   },
 ]

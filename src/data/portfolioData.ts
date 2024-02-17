@@ -7,6 +7,12 @@ export interface PortfolioData{
 
 export const portfolioData: PortfolioData[] = [
     {
+      url: 'https://book-bug.vercel.app/',
+      img: '/images/bookbug.jpg',
+      title: 'bookBug',
+      overview: '使用python寫爬蟲，爬取博客來、誠品、金石堂、墊腳石、讀冊生活、天瓏書局 電腦、資訊類 最新書籍。',
+    },
+    {
       url: 'https://moviehub-psi.vercel.app/',
       img: '/images/movie.jpg',
       title: 'Movie Hub',
@@ -17,11 +23,5 @@ export const portfolioData: PortfolioData[] = [
       img: '/images/chat.jpg',
       title: 'Chat Hub',
       overview: 'ChatHub是一個線上即時聊天平台，你可以隨機選擇素未謀面的陌生人盡情聊天!',
-    },
-    {
-      url: 'https://wanye30317.github.io/personalWebsite/',
-      img: '/images/web.jpg',
-      title: 'Vue個人網站(舊版)',
-      overview: '使用Vue3 打造一個3D互動式的個人網站。',
     },
   ]
