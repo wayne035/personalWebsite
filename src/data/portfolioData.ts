@@ -7,6 +7,12 @@ export interface PortfolioData{
 
 export const portfolioData: PortfolioData[] = [
     {
+      url: 'https://news-bug.vercel.app/',
+      img: '/images/newsbug.png',
+      title: 'newsBug',
+      overview: '使用python寫爬蟲，爬取壹蘋果、ETtoday、民視、Newtalk、三立、風傳媒、台視 最新新聞',
+    },
+    {
       url: 'https://book-bug.vercel.app/',
       img: '/images/bookbug.jpg',
       title: 'bookBug',
