@@ -19,7 +19,7 @@ export const skillData: SkillData[] = [
     overview: [
       ' RESTful設計網頁路徑',
       ' MySQL、MongoDB 資料庫建置和資料操作',
-      ' MVC架構開發(Ruby on Rails、Node.js、Flask)'
+      ' MVC架構開發(Ruby on Rails、Node.js、Flask、fastapi)'
     ]
   },
   {

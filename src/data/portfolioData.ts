@@ -7,10 +7,16 @@ export interface PortfolioData{
 
 export const portfolioData: PortfolioData[] = [
     {
+      url: 'https://nuli.vercel.app/',
+      img: '/images/nuli.png',
+      title: 'nuli找工作',
+      overview: '使用python寫爬蟲，輸入關鍵字幫你找尋104、518、1111 等...七天內更新的工作',
+    },
+    {
       url: 'https://news-bug.vercel.app/',
       img: '/images/newsbug.png',
       title: 'newsBug',
-      overview: '使用python寫爬蟲，爬取壹蘋果、ETtoday、民視、Newtalk、三立、風傳媒、台視 最新新聞',
+      overview: '使用python寫爬蟲，爬取壹蘋果、ETtoday、民視、Newtalk、三立、風傳媒、台視等等...最新新聞',
     },
     {
       url: 'https://book-bug.vercel.app/',
@@ -23,11 +29,5 @@ export const portfolioData: PortfolioData[] = [
       img: '/images/movie.jpg',
       title: 'Movie Hub',
       overview: 'Movie Hub 是一項串流媒體服務，使用gmail登入隨時隨地使用手機或桌電觀看，每週都會增加新的電視節目和電影！',
-    },
-    {
-      url: 'https://wayne035.github.io/chatHub/',
-      img: '/images/chat.jpg',
-      title: 'Chat Hub',
-      overview: 'ChatHub是一個線上即時聊天平台，你可以隨機選擇素未謀面的陌生人盡情聊天!',
     },
   ]
