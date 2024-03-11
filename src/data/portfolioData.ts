@@ -19,10 +19,10 @@ export const portfolioData: PortfolioData[] = [
       overview: '使用python寫爬蟲，爬取壹蘋果、ETtoday、民視、Newtalk、三立、風傳媒、台視等等...最新新聞',
     },
     {
-      url: 'https://book-bug.vercel.app/',
-      img: '/images/bookbug.jpg',
-      title: 'bookBug',
-      overview: '使用python寫爬蟲，爬取博客來、誠品、金石堂、墊腳石、讀冊生活、天瓏書局 電腦、資訊類 最新書籍。',
+      url: 'https://web-dev-basic.vercel.app/',
+      img: '/images/webDevBasic.png',
+      title: 'webDevBasic',
+      overview: '收錄 HTML、CSS、Javascript... 等相關基礎知識連結',
     },
     {
       url: 'https://moviehub-psi.vercel.app/',
